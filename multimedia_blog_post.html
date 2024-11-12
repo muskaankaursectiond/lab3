@@ -1,0 +1,127 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Multimedia Blog Post</title>
+  <style>
+    .media-container {
+      max-width: 800px;
+      margin: 0 auto;
+      text-align: center;
+    }
+    iframe, img, audio, video {
+      max-width: 100%;
+      margin: 10px 0;
+    }
+  </style>
+</head>
+<body>
+  <h1>Blog Post with Multimedia</h1>
+  <div class="media-container">
+    <iframe src="https://www.youtube.com/redirect?event=comments&redir_token=QUFFLUhqbHBac2x0NkY1QUF4NG9JR2VTYmFsb280UDNZd3xBQ3Jtc0trZEtNSk5xQ3V3VUFUc1RvR1kyZWJkcHpFSGhzYzlIM2FRN3VRN3AzemdBaE9SWElrMkVLVWNUN2RDYzNPSUh5UmViUzZyN1JEdm9QLXJTdjIzTFMxc2J3N2tadUJrcE1ENFVXbHlmS3FEd0FvVW5UUQ&q=https%3A%2F%2Fgoo.gl%2F6PYaGF" width="560" height="315" title="HTML Video"></iframe>
+
+    <figure>
+      <img src="html.png" alt="html">
+      <figcaption>HTML</figcaption>
+    </figure>
+
+    <audio controls>
+      <source src="audio.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+
+    <video controls width="600">
+      <source src="video.mp4" type="video/mp4">
+      Your browser does not support the video element.
+    </video>
+  </div>
+</body>
+</html> -->
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Multimedia Blog Post</title>
+  <style>
+    /* General body styling */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-color: rgb(219, 188, 249);
+      color: #141414;
+    }
+
+    /* Header styling */
+    h1, h2 {
+      color: #333;
+      text-align: center;
+    }
+
+    /* Media Container Styling */
+    .media-container {
+      max-width: 800px;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    /* Styling for iframe, image, audio, and video */
+    iframe, img, audio, video {
+      max-width: 100%;
+      margin: 20px 0;
+      border-radius: 5px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Caption Styling */
+    figure {
+      margin: 20px auto;
+      text-align: center;
+    }
+
+    figcaption {
+      font-size: 0.9em;
+      color: #666;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Multimedia Blog Post</h1>
+
+  <div class="media-container">
+
+    <!-- Embedded Video or Webpage -->
+    <h2>Watch this Video</h2>
+    <iframe src=" https://www.youtube.com/embed/5KTSd2jGYHo?si=NTq0rznLYKITtzeI" width="600" height="315" title="Embedded Video" allowfullscreen></iframe>
+
+    <!-- Image with Caption -->
+    <h2>Photo of the Day</h2>
+    <figure>
+      <img src="landscape.jpg" alt="A beautiful landscape" width="600">
+      <figcaption>Beautiful Landscape captured during my trip</figcaption>
+    </figure>
+
+    <!-- Audio Element -->
+    <h2>Listen to our Podcast</h2>
+    <audio controls>
+      <button onclick="playAudio()">Play Audio</button>
+      <button onclick="pauseAudio()">Pause Audio</button>
+      <iframe id="audio-player" width="0" height="0" src=" https://www.youtube.com/embed/5KTSd2jGYHo?si=NTq0rznLYKITtzeI" frameborder="0" allow="autoplay" allowfullscreen></iframe>
+      Your browser does not support the audio element.
+    </audio>
+
+    <!-- Video Element -->
+    <h2>Watch our Video Blog Entry</h2>
+    <video controls width="600">
+      <source src="https://youtu.be/qjYI9YlzJ8Q?si=cd-fWZsWaU7N0bfY" type="video/mp4">
+      Your browser does not support the video element.
+    </video>
+
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Blog</title>
+  <style>
+    /* General Layout Styles */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background-color: #f3f4f6;
+      color: #333;
+      line-height: 1.6;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    /* Header and Navigation Styling */
+    header {
+      width: 100%;
+      background-color: #333;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+      color: #ffc107;
+    }
+
+    nav a {
+      color: #ffc107;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.1em;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #fff;
+    }
+
+    /* Container Layout */
+    .container {
+      display: flex;
+      justify-content: center;
+      width: 90%;
+      max-width: 1200px;
+      margin: 20px auto;
+      gap: 20px;
+    }
+
+    /* Main Content Area Styling */
+    .main-content {
+      flex: 3;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .main-content h2 {
+      color: #333;
+      font-size: 1.8em;
+      margin-bottom: 15px;
+    }
+
+    .main-content p {
+      font-size: 1.1em;
+      color: #555;
+    }
+
+    /* Sidebar Styling */
+    .sidebar {
+      flex: 1;
+      background-color: #fffcf5;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .sidebar h3 {
+      color: #ff9800;
+      font-size: 1.5em;
+      margin-bottom: 10px;
+    }
+
+    .sidebar p {
+      color: #666;
+      font-size: 1.05em;
+      line-height: 1.6;
+    }
+
+    .sidebar ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .sidebar ul li {
+      margin-bottom: 10px;
+    }
+
+    .sidebar ul li a {
+      color: #ff9800;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+
+    .sidebar ul li a:hover {
+      color: #333;
+    }
+
+    /* Footer Styling */
+    footer {
+      width: 100%;
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 15px 0;
+      margin-top: 20px;
+      font-size: 0.9em;
+    }
+
+    footer p {
+      margin: 5px 0;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header with Blog Title and Navigation -->
+  <header>
+    <h1>Welcome to My Blog</h1>
+    <nav>
+      <a href="table_of_contents.html">Home</a>
+      <a href="blog_post_form.html">Submit Post</a>
+    </nav>
+  </header>
+
+  <!-- Main Container for Content and Sidebar -->
+  <div class="container">
+    <!-- Main Content Area -->
+    <div class="main-content">
+      <h2>Latest Posts</h2>
+      <p>Welcome to the blog! Here, you’ll find the latest posts on a variety of topics. Whether you’re interested in technology, lifestyle, travel, or more, we have something for everyone. Enjoy browsing through our posts and feel free to leave comments or submit your own content!</p>
+
+      <h3>Featured Post: The Beauty of Minimalism</h3>
+      <p>Minimalism is not just a design style; it’s a way of life. Embrace the elegance of simplicity in all areas of your life, from home decor to mental clarity. Read more about how minimalism can improve your well-being and bring peace to your daily life...</p>
+    </div>
+
+    <!-- Sidebar Area -->
+    <aside class="sidebar">
+      <h3>About This Blog</h3>
+      <p>This blog is dedicated to sharing insights, ideas, and inspiration on a variety of topics. Here you’ll find articles about technology, travel, lifestyle, and more.</p>
+
+      <h3>Popular Posts</h3>
+      <ul>
+        <li><a href="#">How to Start Coding</a></li>
+        <li><a href="#">10 Tips for a Healthier Life</a></li>
+        <li><a href="#">Top Travel Destinations in 2024</a></li>
+        <li><a href="#">The Art of Minimalism</a></li>
+      </ul>
+    </aside>
+  </div>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>&copy; 2024 My Blog | All rights reserved.</p>
+    <p>Designed by Muskaan kaur</p>
+  </footer>
+
+</body>
+</html>
